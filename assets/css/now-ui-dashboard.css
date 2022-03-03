@@ -22,6 +22,9 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
+#root{
+  --schadular_font_color:#333;
+}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -4684,7 +4687,7 @@ Created using IcoMoon - icomoon.io
 .card label {
   font-size: 0.8571em;
   margin-bottom: 5px;
-  color: #9A9A9A;
+  color: var(--schadular_font_color);
 }
 
 .card .card-footer {

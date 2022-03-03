@@ -2,7 +2,8 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .font{
-  color:blue;
+  color: #333!important;
+  background: #000;
 }
 #con{
     margin-top: 100px;
@@ -13,10 +14,7 @@
 #main-panel{
   background-color: aquamarine;
 }
-.blu{
-  background-color:rgb(116, 116, 230) !important;
-  color:black !important;
-}
+
 .blue{
     background-color: blue;
 }
