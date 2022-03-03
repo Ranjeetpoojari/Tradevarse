@@ -1,0 +1,19 @@
+*{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#main-panel{
+    background-color: aquamarine;
+}
+.blue{
+    background-color: rgb(60, 60, 196);
+}
+.aqua{
+    background-color: aqua;
+}
+.font{
+    font-size: 10px;
+}
+#mt{
+    margin-top: 10%;
+}

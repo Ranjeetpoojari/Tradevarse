@@ -1,0 +1,44 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main-panel{
+    background-color:aquamarine ;
+}
+#main-panel [background-imag] {
+    opacity: 0.5;
+}
+.container{
+    margin-top:25px;
+}
+#Container{
+    margin-top: 7%;
+}
+#ti{
+    font-size: 40px;
+    margin-left: 40%;
+   box-shadow: ;
+    padding: 2%;
+}
+#ti:hover{
+    font-size:35px;
+}
+.form-select{
+    height: 30px;
+    margin: 3px;
+    align-self: center;
+    background-color: rgb(87, 175, 252);
+    border-radius: 2px;
+    color: white;
+    font-weight:700;
+}
+.sidebar.sidebar-wrapper{
+    height: 70vh;
+}
+.card:hover{
+  width: 18rem;
+  height: 5rem;
+  transition: 2s ease;
+}
+.container .row .col .btn{
+    align-self: center;
+} 

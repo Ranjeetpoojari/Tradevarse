@@ -1,0 +1,55 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+#main-panel{
+    background-color: aquamarine;
+}
+#con{
+    margin-top: 100px;
+}
+.navbar{
+    
+}
+.container{
+   
+   
+}
+table{
+    overflow: none;
+    margin-left:10px ;
+}
+.blue{
+    background-color: rgb(60, 60, 196);
+}
+.aqua{
+    background-color: aqua;
+}
+.font{
+    font-size: 10px;
+}
+.table{
+    width:90%;
+    overflow:auto;
+}
+.table td{
+    width:250px
+}
+.table td:nth-child(7){
+    width:500px;
+}
+.form-select{
+    width:200px
+}
+.card{
+    width:80vw;
+}
+
+@media (max-width: 900px){
+   .card{
+    width:95vw;
+   }
+}
+.sidebar-wrapper{
+    overflow-y:hidden;
+}
