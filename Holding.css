@@ -14,10 +14,7 @@
    
    
 }
-table{
-    overflow: none;
-    margin-left:50px ;
-}
+
 .blue{
     background-color: rgb(60, 60, 196);
 }
@@ -26,4 +23,8 @@ table{
 }
 .font{
     font-size: 10px;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 2px 7px;
+    vertical-align: middle;
 }

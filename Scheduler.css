@@ -151,3 +151,12 @@ input[type="text"]{
     width: 250px;
     
   }
+  .form-control {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: #2c2c2c;
+    line-height: normal;
+    height: auto;
+    font-size: 0.8571em;
+  }
