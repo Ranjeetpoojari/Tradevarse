@@ -8,6 +8,10 @@
     background-color: blue;
 
 }
+.card{
+    max-width: 800px;
+}
+
 table th{
     padding-right: 100px;
     padding-left: 100px;
@@ -17,7 +21,7 @@ table td{
     padding-right:100px ;
 }
 #Groupsname{
-    width: 80%;
+    width: 100%;
 }
 .font{
     font-size: 15px;
@@ -52,4 +56,7 @@ textarea.form-control {
     width: 260px;
     z-index: 4;
     padding-bottom: 100px;
+}
+.sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]), .off-canvas-sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]) {
+    color: #2CA8FF;
 }
