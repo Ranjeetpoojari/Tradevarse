@@ -53,3 +53,11 @@ table{
 .sidebar-wrapper{
     overflow-y:hidden;
 }
+.sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
+    position: relative;
+    height: calc(100vh - 75px);
+    overflow: hidden;
+    width: 260px;
+    z-index: 4;
+    padding-bottom: 100px;
+}
