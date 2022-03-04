@@ -1,0 +1,33 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#con{
+    margin-top: 100px;
+}
+.blue{
+    background-color: blue;
+
+}
+table th{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+table td{
+    padding-left:100px;
+    padding-right:100px ;
+}
+#Groupsname{
+    width: 80%;
+}
+.font{
+    font-size: 15px;
+}
+.blu{
+    background-color: rgb(67, 136, 216);
+}
+.col{
+    background-color: aquamarine;
+}
+.form-control{
+    border: 1px solid black;
+}

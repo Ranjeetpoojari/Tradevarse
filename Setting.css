@@ -1,0 +1,29 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#con{
+    margin-top: 100px;
+}
+.blue{
+    background-color: blue;
+}
+.card{
+;
+}
+
+.font{
+    font-size:10px;
+    background-color: rgb(150, 193, 223);
+
+}
+#btn{
+    margin-left: 80%;
+}
+table td{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+table th{
+    padding-left: 100px;
+    padding-right: 100px;
+}
