@@ -8,17 +8,35 @@
     background-color: blue;
 
 }
+body{
+    background:linear-gradient(45deg,rgba(32, 110, 149,1),rgba(128, 200, 240,0.9)) ;  
+}
 .card{
     max-width: 800px;
 }
-
+#main-panel{
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    height:100%;
+}
+table{
+    height: 350px;
+    overflow:hidden ;
+    font-size: 18px;
+    color: #06426d;
+    border-radius: 5px;
+}
 table th{
-    padding-right: 100px;
-    padding-left: 100px;
+    color: #f1f2f3;
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 table td{
-    padding-left:100px;
-    padding-right:100px ;
+    padding-left:90px;
+    padding-right:90px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #Groupsname{
     width: 100%;
@@ -59,4 +77,7 @@ textarea.form-control {
 }
 .sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]), .off-canvas-sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]) {
     color: #2CA8FF;
+}
+.textarea{
+    width: 100%;
 }

@@ -3,7 +3,12 @@
    
 }
 #main-panel{
-    background-color: aquamarine;
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    height:100vh;
+}
+.mar{
+    background-color: rgb(20, 112, 165);
+    color:aliceblue
 }
 .blue{
     background-color: rgb(60, 60, 196);
@@ -33,4 +38,12 @@
     width: 260px;
     z-index: 4;
     padding-bottom: 100px;
+}
+.form-select{
+    width: 150px;
+    padding: 7px;
+    border-radius: 4px;
+    background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
+    color: rgb(21, 43, 43);
+    font-weight: 700;
 }

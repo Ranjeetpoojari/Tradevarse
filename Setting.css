@@ -5,10 +5,12 @@
     margin-top: 100px;
 }
 .blue{
-    background-color: blue;
+  background-color: blue;
 }
-
-
+#main-panel{
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    height:100%;
+}
 
 .font{
     font-size:10px;

@@ -3,19 +3,16 @@
     box-sizing: border-box;
 }
 #main-panel{
-    background-color: aquamarine;
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    height: 100vh;
 }
 #con{
     margin-top: 100px;
 }
-.navbar{
-    
+.card{
+    width: 100vw;
 }
-.container{
-   
-   
-}
-table{
+.table{
     overflow: none;
     margin-left:10px ;
 }

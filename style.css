@@ -1,8 +1,14 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
 }
+body{
+    background:linear-gradient(45deg,rgba(32, 110, 149,1),rgba(128, 200, 240,0.9)) ;
+}
+
 #main-panel{
-    background-color:aquamarine ;
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    height:100%;
 }
 #main-panel [background-imag] {
     opacity: 0.5;
@@ -26,18 +32,21 @@
     height: 30px;
     margin: 3px;
     align-self: center;
-    background-color: rgb(87, 175, 252);
+    background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
     border-radius: 2px;
-    color: white;
+    color: rgb(27, 49, 82);
     font-weight:700;
 }
 .sidebar.sidebar-wrapper{
     height: 70vh;
 }
-.card:hover{
-  width: 18rem;
-  height: 5rem;
-  transition: 2s ease;
+.card{
+    width: 100px;
+    height: 120px;
+    border-radius:3px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .container .row .col .btn{
     align-self: center;
@@ -49,4 +58,46 @@
     width: 260px;
     z-index: 4;
     padding-bottom: 100px;
+}
+
+element.style {
+}
+.sidebar .nav p, .off-canvas-sidebar .nav p {
+    margin: 0;
+    line-height: 30px;
+    position: relative;
+    display: block;
+    height: auto;
+    white-space: nowrap;
+}
+.nav-pills .nav-link, .navbar, .nav-tabs .nav-link, .sidebar .nav a, .sidebar .nav a i, .navbar-collapse .navbar-nav .nav-link, .animation-transition-general, .sidebar .navbar-minimize, .off-canvas-sidebar .navbar-minimize, .sidebar .nav p, .off-canvas-sidebar .nav p, .sidebar .logo a.logo-mini, .sidebar .logo a.logo-normal, .off-canvas-sidebar .logo a.logo-mini, .off-canvas-sidebar .logo a.logo-normal, .tag, .tag [data-role="remove"], .animation-transition-general, .sidebar .navbar-minimize, .off-canvas-sidebar .navbar-minimize, .sidebar .nav p, .off-canvas-sidebar .nav p, .sidebar .logo a.logo-mini, .sidebar .logo a.logo-normal, .off-canvas-sidebar .logo a.logo-mini, .off-canvas-sidebar .logo a.logo-normal {
+    -webkit-transition: all 300ms ease 0s;
+    -moz-transition: all 300ms ease 0s;
+    -o-transition: all 300ms ease 0s;
+    -ms-transition: all 300ms ease 0s;
+    transition: all 300ms ease 0s;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]), .off-canvas-sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]) {
+    color: #052c47d2;
+}
+.wrapper .sidebar li{
+    font-size: 15px;
 }
