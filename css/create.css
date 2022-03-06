@@ -40,6 +40,9 @@ table td{
 }
 #Groupsname{
     width: 100%;
+    background-color: #d5e0e7;
+    color:rgb(19, 12, 12);
+    font-weight: 700;
 }
 .font{
     font-size: 15px;
@@ -52,6 +55,11 @@ table td{
 }
 .form-control{
     border: 1px solid black;
+}
+.textarea{
+    background-color: #d5e0e7;
+    color:rgb(19, 12, 12);
+    font-weight: 700;
 }
 textarea.form-control {
     max-width: 100%;
