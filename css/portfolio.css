@@ -1,0 +1,49 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+   }
+   #main-panel{
+       background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+       height:100vh;
+   }
+   .mar{
+       background-color: rgb(20, 112, 165);
+       color:aliceblue
+   }
+   .blue{
+       background-color: rgb(60, 60, 196);
+   }
+   .aqua{
+       background-color: aqua;
+   }
+   .font{
+       font-size: 10px;
+   }
+   #mt{
+       margin-top: 10%;
+   }
+   .col-9 {
+       -ms-flex: 0 0 75%;
+       flex: 0 0 75%;
+       max-width: 90%;
+   }
+   .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+       padding: 3px 7px;
+       vertical-align: middle;
+   }
+   .sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
+       position: relative;
+       height: calc(100vh - 75px);
+       overflow: hidden;
+       width: 260px;
+       z-index: 4;
+       padding-bottom: 100px;
+   }
+   .form-select{
+       width: 150px;
+       padding: 7px;
+       border-radius: 4px;
+       background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
+       color: rgb(21, 43, 43);
+       font-weight: 700;
+   }

@@ -43,10 +43,16 @@ body{
 .card{
     width: 100px;
     height: 120px;
-    border-radius:3px;
+    border-radius: 3px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+transition: all 0.5s;
+background:linear-gradient(45deg,rgb(51, 184, 236),rgb(182, 219, 238),rgb(26, 112, 224));
+box-shadow: 2px 2px 2px 2px rgb(165, 211, 238);
+}
+.card:hover{
+    border-radius:15% 0 15% 0;
 }
 .container .row .col .btn{
     align-self: center;
