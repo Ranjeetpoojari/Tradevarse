@@ -1,0 +1,64 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+#main-panel{
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    height:100vh;
+}
+
+#con{
+    margin-top: 100px;
+}
+.navbar{
+    
+}
+.container{
+   
+   
+}
+table{
+    overflow: none;
+    margin-left:10px ;
+}
+.blue{
+    background-color: rgb(60, 60, 196);
+}
+.aqua{
+    background-color: aqua;
+}
+.font{
+    font-size: 10px;
+}
+.table{
+    width:700PX;
+    overflow:auto;
+}
+.table td{
+    width:250px
+}
+.form-select{
+    width:200px
+}
+.card{
+    width:60vw;
+    background:linear-gradient(90deg,rgba(67, 132, 165, 0.9),rgba(128, 240, 216, 0.7)) ;
+    
+}
+
+@media (max-width: 700px){
+   .card{
+    width:95vw;
+   }
+}
+.sidebar-wrapper{
+    overflow-y:hidden;
+}
+.sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
+    position: relative;
+    height: calc(100vh - 75px);
+    overflow: hidden;
+    width: 260px;
+    z-index: 4;
+    padding-bottom: 100px;
+}
