@@ -20,7 +20,7 @@
    .card{
      width:95%;
      background-color:white;
-     font-size: 18px;
+     font-size: 14px;
    }
    
    .blue{
@@ -184,11 +184,11 @@
      padding: 7px;
      border-radius: 4px;
      background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
-     color: rgb(224, 235, 235);
+     color: rgb(8, 10, 10);
      font-weight: 700;
    }
    #Sell{
-     display:none
+     display:none;
    }
   
    
