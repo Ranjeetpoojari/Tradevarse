@@ -37,7 +37,7 @@ body{
     align-self: center;
     background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
     border-radius: 2px;
-    color: rgb(27, 49, 82);
+    color: rgb(6, 46, 92);
     font-weight:700;
 }
 .sidebar.sidebar-wrapper{
@@ -52,19 +52,19 @@ body{
     margin-bottom: 30px;
     margin-left: 2px;
     margin-right: 2px;
-    border-top: 3px solid rgb(10, 93, 248);
+    border: 3px solid rgb(0, 70, 150) ;
 /* transition: all 0.5s; */
 /* background:linear-gradient(180deg,rgba(4, 6, 71, 0.9),rgba(2, 15, 44, 0.9)); */
 /* background:linear-gradient(180deg,rgb(18, 240, 129),rgba(8, 190, 99, 0.966)); */
 /* background:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99)); */
-
+background:rgba(121, 169, 224, 0.651) ; ;
 box-shadow:2px 2px 2px 2px;
 }
 .card-body i{
     position: relative;
     left:90px;
     top:-20px;
-    border: 3px solid blue ;
+    border: 3px solid rgb(6, 46, 92) ;
   height: 40px;
 padding-left:5px;
 padding-top: px;
@@ -135,4 +135,8 @@ p {
 }
 .margin{
     margin-top: 100px;
+}
+#green{
+    color:rgb(94, 253, 192);
+    font-size: 18px;
 }
