@@ -43,6 +43,7 @@ body{
 .sidebar.sidebar-wrapper{
     height: 70vh;
 }
+
 .card{
 
     width: 230px;
@@ -94,8 +95,7 @@ padding-bottom:37px;
     color:rgb(2, 6, 10);
     margin-top:10px;
 }
-element.style {
-}
+
 .sidebar .nav p, .off-canvas-sidebar .nav p {
     margin: 0;
     line-height: 30px;
@@ -118,9 +118,7 @@ p {
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-*, ::after, ::before {
-    box-sizing: border-box;
-}
+
 
 p {
     display: block;
