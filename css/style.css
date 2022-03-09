@@ -6,11 +6,25 @@
 body{
     background:linear-gradient(45deg,rgba(32, 110, 149,1),rgba(128, 200, 240,0.9)) ;
 }
+:root{
+    --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    --secondary-color:rgba(29, 72, 86,1);
+    --third-color:white;
+    --fourth-color:black;
+   
+}
+.dark-them{
 
+    --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
+    --secondary-color:rgb(33, 41, 41);
+    --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
+    --fourth-color:rgb(245, 227, 227);
+}
 #main-panel{
     background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
     height:100%;
     overflow: auto;
+    background: var(--primary-color);
 }
 #main-panel [background-imag] {
     opacity: 0.5;
@@ -55,10 +69,13 @@ body{
     border: 3px solid rgb(0, 70, 150) ;
 /* transition: all 0.5s; */
 /* background:linear-gradient(180deg,rgba(4, 6, 71, 0.9),rgba(2, 15, 44, 0.9)); */
-/* background:linear-gradient(180deg,rgb(18, 240, 129),rgba(8, 190, 99, 0.966)); */
+/* background:linear-gradient(180deg,rgb(18, 240, 129),rgba(32, 124, 78, 0.966)); */
 /* background:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99)); */
 /* background:rgba(121, 169, 224, 0.651) ; ; */
 box-shadow:2px 2px 2px 2px;
+background: var(--third-color);
+
+
 }
 .card-body i{
     position: relative;
@@ -76,6 +93,7 @@ padding-bottom:37px;
     color:#02141f;
     background:linear-gradient(45deg,rgb(205, 215, 219),rgba(236, 237, 238, 0.979)) ;
 }
+
 
 .container .row .col .btn{
     align-self: center;
@@ -129,6 +147,7 @@ p {
 }
 .sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]), .off-canvas-sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]) {
     color: #052c47d2;
+    /* color:blue; */
 }
 .wrapper .sidebar li{
     font-size: 15px;
@@ -139,4 +158,11 @@ p {
 #green{
     color:rgb(94, 253, 192);
     font-size: 18px;
+}
+.sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
+    background: var(--secondary-color)
+    
+}
+.card-body p , .card-body h6{
+    color:var(--fourth-color)
 }
