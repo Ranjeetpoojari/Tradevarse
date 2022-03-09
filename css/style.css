@@ -11,6 +11,7 @@ body{
     --secondary-color:rgba(29, 72, 86,1);
     --third-color:white;
     --fourth-color:black;
+    cursor: pointer;
    
 }
 .dark-them{
@@ -19,6 +20,7 @@ body{
     --secondary-color:rgb(33, 41, 41);
     --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
     --fourth-color:rgb(245, 227, 227);
+    cursor: pointer;
 }
 #main-panel{
     background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
