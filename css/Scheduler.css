@@ -118,9 +118,10 @@
        left: 0;
        right: 0;
        bottom: 0;
-       background-color: rgb(245, 206, 206);
+       background-color: rgb(27, 73, 223);
        -webkit-transition: .4s;
        transition: .4s;
+       transform: rotate(180deg);
      }
      
      .slider1:before {
@@ -136,7 +137,7 @@
      }
      
      input:checked + .slider1 {
-       background-color:blue;
+       background-color:rgb(189, 189, 199);
      }
      
      input:focus + .slider1 {
@@ -162,6 +163,16 @@
        width: 250px;
        
      }
+     #Timer{
+  
+      display: none;
+    }
+    #Percentage1{
+      display:none;
+    }
+      #Price{
+        display: none;
+      }
      .form-control {
        background-color: transparent;
        border: 1px solid black;
@@ -190,5 +201,3 @@
    #Sell{
      display:none;
    }
-  
-   
