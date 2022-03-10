@@ -163,6 +163,12 @@
        width: 250px;
        
      }
+     #toggleshadule{
+       display: none;
+     }
+     #check4:checked ~ #toggleshadule{
+       display: inline;
+     }
      #Timer{
   
       display: none;
