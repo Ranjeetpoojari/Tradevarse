@@ -9,7 +9,9 @@ body{
 :root{
     --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
     --secondary-color:rgba(29, 72, 86,1);
-    --third-color:white;
+    
+    --third-color:linear-gradient(90deg,rgb(188, 188, 199),rgba(33, 52, 228, 0.938));
+   
     --fourth-color:black;
     cursor: pointer;
    
@@ -115,6 +117,9 @@ padding-bottom:37px;
     color:rgb(2, 6, 10);
     margin-top:10px;
 }
+.card .card-body p{
+    font-size: 20px;
+}
 
 .sidebar .nav p, .off-canvas-sidebar .nav p {
     margin: 0;
@@ -159,7 +164,7 @@ p {
 }
 #green{
     color:rgb(94, 253, 192);
-    font-size: 18px;
+   
 }
 .sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
     background: var(--secondary-color)
