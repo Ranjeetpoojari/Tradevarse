@@ -39,6 +39,10 @@
     padding: 7px;
     border-radius: 4px;
     background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
-    color: rgb(224, 235, 235);
+    color: rgb(13, 16, 197);
     font-weight: 700;
+    margin-bottom: 10px;
+}
+.accordion-body{
+    display: none;
 }
