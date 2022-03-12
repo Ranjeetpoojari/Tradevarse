@@ -20,6 +20,7 @@
   <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css\Holding.css">
 </head>
@@ -155,6 +156,7 @@
           </div>
         </div>
       </nav>
+    
       
 <!-- Other Code Will be Here -->
 <div class="container" id="con">
@@ -187,6 +189,7 @@
     </div>
    
 </div>
+ 
 
 <div class="container-fluid shadow bg-light">
   <div class="row my-3">
@@ -206,7 +209,26 @@
                   </tr>
               </thead>
               <tbody>
-                  <tr class="justify-content-center">
+                <div class="t-main accordion accordion-flush " id="accordionFlushExample">
+                  <div class="t-item accordion-item">
+                    <h6 class="accordion-header" id="flush-headingOne">  
+
+                      <tr class="collapsed"  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <td>1</td>
+                        <td>BICCON</td>
+                        <td> 395.7 </td>
+                        <td>210</td>
+                        <td>76,266.10</td>
+                        <td>83,097.00<br><p class="text-success">10.40%<br>37.29</p></td>
+                        <td>-1,291.50<br><p class="text-danger">-1.53%<br>6.15</p></td>
+                        <td>
+                          <button class="btn btn-primary btn-sm blue">BUY</button>
+                          <button class="btn btn-danger btn-sm">SELL</button>
+                        </td>
+                      </tr>
+                    </h6>
+                  <tr id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body ">
                       <td>1</td>
                       <td>BICCON</td>
                       <td> 395.7 </td>
@@ -215,12 +237,18 @@
                       <td>83,097.00<br><p class="text-success">10.40%<br>37.29</p></td>
                       <td>-1,291.50<br><p class="text-danger">-1.53%<br>6.15</p></td>
                       <td>
-                          <button class="btn btn-primary btn-sm blue">BUY</button>
-                          <button class="btn btn-danger btn-sm">SELL</button>
+                        <button class="btn btn-primary btn-sm blue">BUY</button>
+                        <button class="btn btn-danger btn-sm">SELL</button>
                       </td>
-                  </tr>
-                  <tr>
-                      <td>2</td>
+                    </div>
+                    </tr>
+                  </div>
+                </div>
+                <div class="t-item accordion-item">
+                  <h6 class="accordion-header" id="flush-headingTwo"> 
+                <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                 
+                  <td>2</td>
                       <td>CUPID</td>
                       <td>216.2</td>
                       <td>917</td>
@@ -231,8 +259,29 @@
                           <button class="btn btn-primary btn-sm blue">BUY</button>
                           <button class="btn btn-danger btn-sm">SELL</button>
                       </td>
+                  
                   </tr>
-                  <tr>
+                  </h6>
+                </div>
+                  <tr id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                    <td>2</td>
+                  <td>CUPID</td>
+                  <td>216.2</td>
+                  <td>917</td>
+                  <td>406.111.78</td>
+                  <td>198,255.40<BR><P class="text-danger">-2.36%<BR>-10.47</P></td>
+                  <td>-550.20<br><p class="text-danger">-0.28%<br>-1.20</p></td>
+                  <td>
+                      <button class="btn btn-primary btn-sm blue">BUY</button>
+                      <button class="btn btn-danger btn-sm">SELL</button>
+                  </td>
+                  </td>
+                    </div>
+              </tr>
+              <div class="t-item accordion-item">
+                <h6 class="accordion-header" id="flush-headingThree">
+                  <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                       <td>3</td>
                       <td>FLUIDOM</td>
                       <td>139.15</td>
@@ -245,7 +294,25 @@
                           <button class="btn btn-danger btn-sm">SELL</button> 
                       </td>
                   </tr>
-                  <tr>
+                </h6>
+                    <tr id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                      <td>3</td>
+                      <td>FLUIDOM</td>
+                      <td>139.15</td>
+                      <td>292</td>
+                      <td>41.052.28</td>
+                      <td>40,631.80<br><p class="text-danger">-1.20%<br>-1.44</p></td>
+                      <td>-890.60<br><p class="text-danger">-214%<br>-3.05</p></td>
+                      <td>
+                          <button class="btn btn-primary btn-sm blue">BUY</button>
+                          <button class="btn btn-danger btn-sm">SELL</button> 
+                      </td>
+                      </div>
+                  </tr>
+                  <div class="t-item accordion-item">  
+                    <h6 class="accordion-header" id="flush-headingfour">
+                     <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
                       <td>4</td>
                       <td>GICRE</td>
                       <td>131.7</td>
@@ -257,7 +324,24 @@
                           <button class="btn btn-primary btn-sm blue">BUY</button>
                           <button class="btn btn-danger btn-sm">SELL</button>
                       </td>
-                  </tr>
+                    </tr>
+                    <tr id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                      <td>4</td>
+                      <td>GICRE</td>
+                      <td>131.7</td>
+                      <td>400</td>
+                      <td>56,864.00</td>
+                      <td>52.680.00<br><p class="text-danger">-7.362%<br>-10.46</p></td>
+                      <td>-360.00<br><p class="text-danger">-0.68%<br> 0.90</p></td>
+                      <td>
+                          <button class="btn btn-primary btn-sm blue">BUY</button>
+                          <button class="btn btn-danger btn-sm">SELL</button>
+                      </td>
+                      </div>
+                    </tr>
+                  </div>
+                  </div>
               </tbody>
           </table>
           </div>
@@ -266,5 +350,16 @@
   </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
+ 
+  <script src="../assets/js/core/jquery.min.js"></script>
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script>
+   
+ 
+  </script>
   </body>
 </html>
