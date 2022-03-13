@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main-panel{
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    height: 100vh;
+}
+#con{
+    margin-top: 100px;
+}
+.mar{
+    background-color: rgb(20, 112, 165);
+    color:aliceblue
+}
+
+.blue{
+    background-color: rgb(60, 60, 196);
+}
+.aqua{
+    background-color: aqua;
+}
+.font{
+    font-size: 10px;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 2px 7px;
+    vertical-align: middle;
+}
+.sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
+    position: relative;
+    height: calc(100vh - 75px);
+    overflow: hidden;
+    width: 260px;
+    z-index: 4;
+    padding-bottom: 100px;
+}
+.form-select{
+    width: 150px;
+    padding: 7px;
+    border-radius: 4px;
+    background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
+    color: rgb(13, 16, 197);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.row .col-6 select{
+  padding: 0 4px 04px;
+}
+select,input {
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+input[type="checkbox"]{
+    width: 20px;
+    align-self: start;
+} 
+.col-3 .btn{
+    margin-right: 70%;
+}
+.blue{
+    background-color: blue;
+}
