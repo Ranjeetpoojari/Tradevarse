@@ -46,3 +46,6 @@
 .accordion-body{
     display: none;
 }
+.accordion .accordion-flush .accordion-item{
+    background-color:  #052c47d2;
+}

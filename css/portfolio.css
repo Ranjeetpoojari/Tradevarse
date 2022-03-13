@@ -47,3 +47,10 @@
        color: rgb(21, 43, 43);
        font-weight: 700;
    }
+ .table-responsive {
+  max-height: 500px;
+    border-radius: 5px;
+}
+.accordion-body{
+    display: none;
+}
