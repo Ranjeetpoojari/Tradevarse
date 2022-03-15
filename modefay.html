@@ -1,12 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Now UI Dashboard by Creative Tim
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+    name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS Files -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="order.css">
+  
 </head>
-<body>
-    
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="blue">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+    -->
+      <div class="logo">
+        <a href="http://www.creative-tim.com" class="simple-text logo-normal ml-5">
+          Tradeverse
+        </a>
+      </div>
+      <div class="sidebar-wrapper" id="sidebar-wrapper">
+        <ul class="nav">
+          <li class="active ">
+            <a href="index.html">
+              <i class="bi bi-house-door"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a href="Holding.html">
+              <i class="bi bi-lock"></i>
+              <p>Holding</p>
+            </a>
+          </li>
+          <li>
+            <a href="Market.html">
+              <i class="bi bi-graph-up-arrow"></i>
+              <p>Market Depth</p>
+            </a>
+          </li>
+          <li>
+            <a href="Portfolio.html">
+              <i class="bi bi-grid-3x3-gap"></i>
+              <p>Portfolio</p>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+             <i class="bi bi-cart"></i> Trading  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Trade</a>
+              <a class="dropdown-item" href="#">Order</a>
+              <a class="dropdown-item" href="#">Position</a>
+            </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+              <i class="bi bi-person"></i> Trading Accounts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item" href="#">Account List</a>
+              <a class="dropdown-item" href="#">Create New</a>
+              
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+              <i class="bi bi-clock"></i>   Scheduler  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item" href="#">Create</a>
+              <a class="dropdown-item" href="#">Schedular</a>
+             
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+              <i class="bi bi-gear"></i> Setting  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
+            </a>
+            <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdownMenuLink3">
+              <a class="dropdown-item" href="#">General</a>
+              <a class="dropdown-item" href="#">Group Setting</a>
+            
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel " id="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg nav-color shadow navbar-absolute">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="index.html">Dashboard</a>
+            <img src="assets\img\moon.png" alt=""  height="30" width="30" id="sun">
+          </div>
+
+
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <form>
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Search...">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <i class="now-ui-icons ui-1_zoom-bold"></i>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#pablo">
+                  <i class="now-ui-icons media-2_sound-wave"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Stats</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="now-ui-icons location_world"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Some Actions</span>
+                  </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pablo">
+                  <i class="now-ui-icons users_single-02"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Account</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+<div class="container " id="con">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class=" col-6 col-md-8 mb-2">
+                    <select>
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                    </select>
+                    <label>entries per page</label>
+                </div>
+                <div class="col-6 col-md-4">
+                    <input type="text"  placeholder="Search.....">
+                </div>
+            </div>
+            <div class="table-responsive">
+               <table class="table">
+                   <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>Status</th>
+                        <th>Symbol</th>
+                        <th>Tran Type</th>
+                        <th>Sch Type</th>
+                        <th>No Of Order</th>
+                        <th>Exe Order</th>
+                        <th>Price</th>
+                        <th>Variety</th>
+                        <th>Exchange</th>
+                        <th>Quantity</th>
+                        <th>Validity Type</th>
+                        <th>Validity</th>
+                      
+                    </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                      <td><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+                      <td class="lightgreen">Completed</td>
+                      <td class="blueb">HINDCOPPE</td>
+                      <td>BUY</td>
+                      <td>TIME</td>
+                      <td>100</td>
+                      <td>100</td>
+                      <td>...</td>
+                      <td>NORMAL</td>
+                      <td>NSE</td>
+                      <td>5</td>
+                      <td>GTT</td>
+                      <td>5</td>
+                      
+                  </tr>
+                  <tr>
+                      <td><a herf="#" class="btn btn-info btn-sm m-1">Modify</a><a herf="#" class="btn btn-success btn-sm m-1">Resume</a></td>
+                      <td class="yellow">Pause</td>
+                      <td class="blueb">FLUIDOM</td>
+                      <td>BUY</td>
+                      <td>TIME</td>
+                      <td>60</td>
+                      <td>11</td>
+                      <td>...</td>
+                      <td>NORMAL</td>
+                      <td>BSE</td>
+                      <td>1</td>
+                      <td>GTT</td>
+                      <td>10</td>
+                  </tr>
+                  <tr>
+                    <td><a herf="#" class="btn btn-info btn-sm m-1">Modify</a><a herf="#" class="btn  btn-sm m-1 blue">Pause</a><a href="#" class="btn btn-danger btn-sm m-1">Cancel</a></td>
+                    <td class="apin">active</td>
+                    <td class="blueb">ITL</td>
+                    <td>BUY</td>
+                    <td>TIME</td>
+                    <td>700</td>
+                    <td>153</td>
+                    <td>...</td>
+                    <td>NORMAL</td>
+                    <td>BSE</td>
+                    <td>1</td>
+                    <td>GTT</td>
+                    <td>5</td>
+                  </tr>
+                    <tr>
+                      <td><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+                      <td class="lightgreen">Completed</td>
+                      <td class="blueb">HINDCOPPE</td>
+                      <td>BUY</td>
+                      <td>TIME</td>
+                      <td>100</td>
+                      <td>100</td>
+                      <td>...</td>
+                      <td>NORMAL</td>
+                      <td>NSE</td>
+                      <td>5</td>
+                      <td>GTT</td>
+                      <td>5</td>
+                      
+                  </tr>
+                  <tr>
+                      <td><a herf="#" class="btn btn-info btn-sm m-1">Modify</a><a herf="#" class="btn btn-success btn-sm m-1">Resume</a></td>
+                      <td class="yellow">Pause</td>
+                      <td class="blueb">FLUIDOM</td>
+                      <td>BUY</td>
+                      <td>TIME</td>
+                      <td>60</td>
+                      <td>11</td>
+                      <td>...</td>
+                      <td>NORMAL</td>
+                      <td>BSE</td>
+                      <td>1</td>
+                      <td>GTT</td>
+                      <td>10</td>
+                  </tr>
+                  <tr>
+                    <td><a herf="#" class="btn btn-info btn-sm m-1">Modify</a><a herf="#" class="btn  btn-sm m-1 blue">Pause</a><a href="#" class="btn btn-danger btn-sm m-1">Cancel</a></td>
+                    <td class="apin">active</td>
+                    <td class="blueb">ITL</td>
+                    <td>BUY</td>
+                    <td>TIME</td>
+                    <td>700</td>
+                    <td>153</td>
+                    <td>...</td>
+                    <td>NORMAL</td>
+                    <td>BSE</td>
+                    <td>1</td>
+                    <td>GTT</td>
+                    <td>5</td>
+                  </tr>
+                   </tbody>
+               </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script>
 </body>
 </html>

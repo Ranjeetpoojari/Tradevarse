@@ -62,29 +62,48 @@
               <p>Portfolio</p>
             </a>
           </li>
-          <li>
-            <a href="Trading.html">
-              <i class="bi bi-cart"></i>
-              <p>Trading</p>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+             <i class="bi bi-cart"></i> Trading  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Trade</a>
+              <a class="dropdown-item" href="#">Order</a>
+              <a class="dropdown-item" href="#">Position</a>
+            </div>
           </li>
-          <li>
-            <a href="TradingAcc.html">
-              <i class="bi bi-person"></i>
-              <p>Trading Accounts</p>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+              <i class="bi bi-person"></i> Trading Accounts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item" href="#">Account List</a>
+              <a class="dropdown-item" href="#">Create New</a>
+              
+            </div>
           </li>
-          <li>
-            <a href="Scheduler.html">
-              <i class="bi bi-clock"></i>
-              <p>Scheduler</p>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+              <i class="bi bi-clock"></i>   Scheduler  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
             </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="dropdown-item" href="#">Create</a>
+              <a class="dropdown-item" href="#">Schedular</a>
+             
+            </div>
           </li>
-          <li>
-            <a href="Setting.html">
-              <i class="bi bi-gear"></i>
-              <p>Setting</p>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+              <i class="bi bi-gear"></i> Setting  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
             </a>
+            <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdownMenuLink3">
+              <a class="dropdown-item" href="#">General</a>
+              <a class="dropdown-item" href="#">Group Setting</a>
+            
+            </div>
           </li>
         </ul>
       </div>
@@ -165,10 +184,10 @@
               <div class="card">
                   <div class="card-body">
                       <div class="container">
-                          <div class="row">
+                          <div class="row justify-content-center">
                               
 
-                                  <div class="col-12 form">
+                                  <div class=" col-12 col-md-8 form mb-2">
                                       <label for="STOCK BROKER">
                                           STOCK BROKER
                                         </label>
@@ -183,7 +202,8 @@
                                   </select>
                               </div>
                               <br>
-                              <div class="col-12">
+                              
+                              <div class="col-12 col-md-8 mb-2">
                                 <label>
                                 TRADING PLATFORM
                                 </label>
@@ -198,54 +218,55 @@
                                 </select>
                               </div>
                               <br>
-                              <div class="col-12">
+                              <div class="col-12 col-md-8 mb-2">
                                   <label>
                                       NAME
-                                  </label>
-                                  <input type="text" placeholder="name">
+                                  </label><br>
+                                  <input type="text" placeholder="&nbsp;&nbsp;&nbsp;name">
                               </div>
                               <br>
-                              <div class="col-12">
+                              <div class="col-12 col-md-8 mb-2">
                                 <label>
-                                    MOBILE
-                                </label>
-                                <input type="text" placeholder="mobile">
+                                    MOBILE 
+                                </label><br>
+                                <input type="text"  placeholder=" &nbsp;&nbsp;&nbsp; mobile">
                             </div>
         
-                              <div class="col-12">
+                              <div class="col-12 col-md-8 mb-2">
                                   <label>
                                       EMAIL ID
-                                  </label>
-                                  <input type="email" placeholder="Email ID">
+                                  </label><br>
+                                  <input type="email" placeholder="&nbsp;&nbsp;&nbsp;Email ID">
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-8 mb-2">
                                     <label>
                                         TPIN
-                                    </label>
-                                    <input type="text" placeholder="TPIN">
+                                    </label><br>
+                                    <input type="text" placeholder="&nbsp;&nbsp;&nbsp;TPIN">
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-8 mb-2">
                                     <label>
                                         TRADING PLATFORM LOGIN
-                                    </label>
-                                    <input type="ID" placeholder="Trading platform Liogin id">
+                                    </label><br>
+                                    <input type="ID" placeholder="&nbsp;&nbsp;&nbsp;Trading platform Liogin id">
                                 </div>
-                                <div class="col-12 form">
+                                <div class="col-12 col-md-8 mb-2 form">
                                     <label>
                                         PASSWORD
-                                    </label>
-                                    <input type="password" placeholder="password">
+                                    </label><br>
+                                    <input type="password" placeholder="&nbsp;&nbsp;&nbsp;password" id="password">
+                                 <br> <input type="checkbox" for="password" for="password" onclick="password()">Show password
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-8 mb-2">
                                         <label>
                                             SECURITY ANSWER (2FA)
-                                        </label>
-                                        <input type="text" placeholder="Security Answer (2FA)">
-                                        <input type="checkbox" >show Security
-                                </div>
-                                <div class="col-3 ">
+                                        </label><br>
+                                        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;Security Answer (2FA)" >
+                                  <br>  <input type="checkbox" >show Security
+                                </div><br>
+                                <div class=" col-md-5">
 
-                                    <a href="#" class="btn btn-sm blue ">Save</a>
+                                    <a href="#" class="btn btn-md blue ">Save</a>
                                 </div>
                             </div>
                       
@@ -264,5 +285,6 @@
   <script src="../assets/js/core/bootstrap.min.js"></script>
   <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
   <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script>
+  <script src="Scheduler.js"></script>
 </body>
 </html>
