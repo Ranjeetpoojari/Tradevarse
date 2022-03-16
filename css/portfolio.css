@@ -20,18 +20,16 @@
        font-size: 10px;
    }
    #mt{
-       margin-top: 10%;
+       margin-top: 90px;
    }
    .col-9 {
        -ms-flex: 0 0 75%;
        flex: 0 0 75%;
-       max-width: 90%;
+       max-width: 100%;
    }
-   .card{
-       width: 90%;
-   }
+
    .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
-       padding: 3px 7px;
+       padding:  10px;
        vertical-align: middle;
    }
    .sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
@@ -50,15 +48,37 @@
        color: rgb(21, 43, 43);
        font-weight: 700;
    }
- .table-responsive {
-  max-height: 500px;
-  max-width: 100%;
-    border-radius: 5px;
-    
-}
+ 
 .table{
     max-width: 900px;
 }
 .accordion-body{
     display: none;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    white-space: nowrap;
+   
+}
+td{
+    white-space: nowrap;
+}
+.table-responsive {
+    min-width: 100%;
+}
+.table{
+    min-width: 100%;
+}
+.container {
+    width: 100%;
+    padding-right:0px;
+    padding-left:0px ;
+    margin-right: auto;
+    margin-left: auto;
+}
+.light{
+    background-color: rgb(217, 219, 212);
 }

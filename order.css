@@ -97,3 +97,11 @@ td{
     background-color: rgb(185, 136, 145);
    
 }
+.card{
+    padding: 0;
+    margin:0;
+}
+.card-body{
+    padding: 0;
+    margin: 0;
+}
