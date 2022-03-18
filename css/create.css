@@ -8,22 +8,43 @@
     background-color: blue;
 
 }
+:root{
+    --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    --secondary-color:rgba(29, 72, 86,1);
+    
+    --third-color:white;
+   
+    --fourth-color:black;
+    cursor: pointer;
+   
+}
+.dark-them{
+    --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
+    --secondary-color:rgb(33, 41, 41);
+    --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
+    --fourth-color:rgb(243, 240, 240);
+    cursor: pointer;
+}
 body{
-    background:linear-gradient(45deg,rgba(32, 110, 149,1),rgba(128, 200, 240,0.9)) ;  
+    background:var(--primary-color) ;  
 }
 .card{
     max-width: 800px;
+    background: var(--third-color);
+    font-size: 17px;
+    color:var(--fourth-color);
 }
 #main-panel{
-    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    background:var(--primary-color);
     height:100%;
 }
 table{
     height: 350px;
     overflow:hidden ;
     font-size: 18px;
-    color: #06426d;
+    color: var(--fourth-color);
     border-radius: 5px;
+    background: var(--third-color);
 }
 table th{
     color: #f1f2f3;
@@ -31,6 +52,7 @@ table th{
     padding-left: 95px;
     padding-top: 5px;
     padding-bottom: 5px;
+    white-space: nowrap;
 }
 table td{
     padding-left:90px;
@@ -43,6 +65,10 @@ table td{
     background-color: #d5e0e7;
     color:rgb(19, 12, 12);
     font-weight: 700;
+    border-radius: 5px;
+}
+#exampleFormControlTextarea1{
+    border-radius: 5px;
 }
 .font{
     font-size: 15px;
@@ -85,6 +111,9 @@ textarea.form-control {
 }
 .sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]), .off-canvas-sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]) {
     color: #2CA8FF;
+}
+.sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
+    background: var(--secondary-color); 
 }
 .textarea{
     width: 100%;

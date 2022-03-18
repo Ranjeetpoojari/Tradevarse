@@ -2,12 +2,31 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
 }
+:root{
+    --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    --secondary-color:rgba(29, 72, 86,1);
+    
+    --third-color:white;
+   
+    --fourth-color:black;
+    cursor: pointer;
+   
+}
+.dark-them{
+    --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
+    --secondary-color:rgb(33, 41, 41);
+    --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
+    --fourth-color:rgb(243, 240, 240);
+    cursor: pointer;
+}
 #main-panel{
-    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    background:var(--primary-color) ;
     height: 100vh;
 }
 #con{
     margin-top: 100px;
+    background: var(--third-color);
+    
 }
 .card{
     width: 100vw;
@@ -20,7 +39,7 @@
     background-color: rgb(60, 60, 196);
 }
 .aqua{
-    background-color: aqua;
+    background-color: rgb(13, 141, 201);
 }
 .font{
     font-size: 10px;
@@ -57,4 +76,12 @@
     width: 260px;
     z-index: 4;
     padding-bottom: 100px;
+}
+td,th{
+    font-size: 16px;
+    white-space: nowrap;
+    color: var(--fourth-color);
+}
+.sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
+    background: var(--secondary-color); 
 }

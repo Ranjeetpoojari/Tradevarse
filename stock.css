@@ -3,11 +3,27 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 16px;
-}
 
+}
+:root{
+    --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    --secondary-color:rgba(29, 72, 86,1);
+    --third-color:white ;
+   
+    --fourth-color:black;
+    cursor: pointer;
+   
+}
+.dark-them{
+
+    --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
+    --secondary-color:rgb(33, 41, 41);
+    --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
+    --fourth-color:rgb(243, 240, 240);
+    cursor: pointer;
+}
 #main-panel{
-    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    background:var(--primary-color) ;
     height: 100vh;
 }
 #con{
@@ -39,6 +55,11 @@ font-size: 16px;
     z-index: 4;
     padding-bottom: 100px;
 }
+.card{
+    font-size: 16px;
+    background: var(--third-color);
+    color:var(--fourth-color)
+}
 .form-select{
     width: 150px;
     padding: 7px;
@@ -69,4 +90,7 @@ input[type="checkbox"]{
 .btn{
     position: relative;
     left: 70%;
+}
+.sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
+    background: var(--secondary-color); 
 }

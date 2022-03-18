@@ -3,9 +3,27 @@
       
    }
    #main-panel{
-       background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+       background:var(--primary-color) ;
        height:100vh;
    }
+   :root{
+    --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    --secondary-color:rgba(29, 72, 86,1);
+    
+    --third-color:white;
+   
+    --fourth-color:black;
+    cursor: pointer;
+   
+}
+.dark-them{
+
+    --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
+    --secondary-color:rgb(33, 41, 41);
+    --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
+    --fourth-color:rgb(243, 240, 240);
+    cursor: pointer;
+}
    .mar{
        background-color: rgb(20, 112, 165);
        color:aliceblue
@@ -45,7 +63,7 @@
        padding: 7px;
        border-radius: 4px;
        background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
-       color: rgb(21, 43, 43);
+       color: rgb(24, 67, 206);
        font-weight: 700;
    }
  
@@ -81,4 +99,19 @@ td{
 }
 .light{
     background-color: rgb(217, 219, 212);
+}
+.p-0{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
+    background: var(--secondary-color); 
+}
+.table-responsive{
+    background:var(--third-color);
+}
+ td{
+    background:var(--third-color);
+    color:var(--fourth-color);
+    font-size: 16px;
 }
