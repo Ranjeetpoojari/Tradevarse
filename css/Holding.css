@@ -13,14 +13,17 @@
    
     --fourth-color:black;
     cursor: pointer;
+    --seven-color:rgb(236, 240, 227);
    
 }
 .dark-them{
-
+    --column-color:#fff;
+    --table-according:#333;
     --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
     --secondary-color:rgb(33, 41, 41);
     --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
     --fourth-color:rgb(243, 240, 240);
+    --seven-color:rgb(41, 41, 58);
     cursor: pointer;
 }
 #con{
@@ -29,8 +32,8 @@
 .mar{
     background-color: rgb(20, 112, 165);
     color:aliceblue;
+    margin-left: 100px;
 }
-
 .blue{
     background-color: rgb(60, 60, 196);
 }
@@ -41,7 +44,7 @@
     font-size: 10px;
 }
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
-    padding: 2px 7px;
+    padding: 2px 5px;
     vertical-align: middle;
 }
 .sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
@@ -72,8 +75,27 @@
 }
 .table-responsive{
     background: var(--third-color);
+    width: 95%;
 }
 .table{
     background: var(--third-color);
     color:var(--fourth-color);
+}
+td{
+    color: var(--fourth-color)!important;
+}
+.accordion-body td{
+    background:var(--seven-color);
+    color:var(--third-color);
+    font-size: 16px;
+}
+.shadow{
+    padding: 0;
+}
+
+.light{
+    background-color:var(--seven-color);
+}
+th,td{
+    white-space: nowrap;
 }

@@ -9,20 +9,22 @@
    :root{
     --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
     --secondary-color:rgba(29, 72, 86,1);
-    
     --third-color:white;
-   
     --fourth-color:black;
+    
+    --column-color:#fff;
     cursor: pointer;
-   
+    --table-according:rgb(217, 219, 212);
 }
 .dark-them{
-
     --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
     --secondary-color:rgb(33, 41, 41);
     --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
     --fourth-color:rgb(243, 240, 240);
     cursor: pointer;
+    --table-according:#333;
+    --column-color:#333;
+
 }
    .mar{
        background-color: rgb(20, 112, 165);
@@ -62,8 +64,8 @@
        width: 150px;
        padding: 7px;
        border-radius: 4px;
-       background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
-       color: rgb(24, 67, 206);
+       background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgba(20, 4, 233, 0.3));
+       color:rgb(0, 68, 255);
        font-weight: 700;
    }
  
@@ -98,7 +100,7 @@ td{
     margin-left: auto;
 }
 .light{
-    background-color: rgb(217, 219, 212);
+    background-color: var(--table-according);
 }
 .p-0{
     padding-left: 0!important;
@@ -110,8 +112,19 @@ td{
 .table-responsive{
     background:var(--third-color);
 }
- td{
+td{
+    color: var(--fourth-color)!important;
+}
+.accordion-body td{
     background:var(--third-color);
-    color:var(--fourth-color);
+    color:var(--third-color);
     font-size: 16px;
+}
+.shadow{
+    padding: 0;
+}
+.column-color option{
+    background-color:var(--fourth-color);
+    color: var(--third-color);
+    
 }

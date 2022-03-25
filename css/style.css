@@ -1,20 +1,16 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 body{
     background:linear-gradient(45deg,rgba(32, 110, 149,1),rgba(128, 200, 240,0.9)) ;
 }
 :root{
     --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
-    --secondary-color:rgba(29, 72, 86,1);
-    
-    --third-color:linear-gradient(90deg,rgb(188, 188, 199),rgba(33, 52, 228, 0.938));
-   
+    --secondary-color:rgba(29, 72, 86,1);   
+    --third-color:linear-gradient(90deg,rgb(244, 244, 248),rgba(239, 240, 245, 0.938)); 
     --fourth-color:black;
-    cursor: pointer;
-   
+    cursor: pointer;  
 }
 .dark-them{
 
@@ -25,7 +21,7 @@ body{
     cursor: pointer;
 }
 #main-panel{
-    /* background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ; */
+    background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
     height:100%;
     overflow: auto;
     background: var(--primary-color);
@@ -36,9 +32,9 @@ body{
 .container{
     margin-top:25px;
 }
-/* #Container{
+#Container{
     margin-top:60px;
-} */
+}
 #ti{
     font-size: 40px;
     margin-left: 40%;
@@ -64,45 +60,6 @@ body{
 .sidebar.sidebar-wrapper{
     height: 70vh;
 }
-
-.card{
-
-    width: 230px;
-    height: 100px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    margin-left: 2px;
-    margin-right: 2px;
-    border: 3px solid rgb(0, 70, 150) ;
-/* transition: all 0.5s; */
-/* background:linear-gradient(180deg,rgba(4, 6, 71, 0.9),rgba(2, 15, 44, 0.9)); */
-/* background:linear-gradient(180deg,rgb(18, 240, 129),rgba(32, 124, 78, 0.966)); */
-/* background:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99)); */
-/* background:rgba(121, 169, 224, 0.651) ; ; */
-box-shadow:2px 2px 2px 2px;
-background: var(--third-color);
-
-
-}
-.card-body i{
-    position: relative;
-    left:90px;
-    top:-20px;
-    border: 3px solid rgb(6, 46, 92) ;
-  height: 40px;
-padding-left:5px;
-padding-top: px;
-padding-right: 5px;
-padding-bottom:37px;
-    border-radius:50% ;
-    font-size: 27px;
-   font-weight:bolder;
-    color:#02141f;
-    background:linear-gradient(45deg,rgb(205, 215, 219),rgba(236, 237, 238, 0.979)) ;
-}
-
-
-
 .container .row .col .btn{
     align-self: center;
 } 
@@ -114,16 +71,7 @@ padding-bottom:37px;
     z-index: 4;
     padding-bottom: 100px;
 }
-.card-body h6{
-    color:var(--fourth-color);
-}
-.card p,.card h6{
-    color:var(--fourth-color);
-    margin-top:10px;
-}
-.card .card-body p{
-    font-size: 20px;
-}
+
 
 .sidebar .nav p, .off-canvas-sidebar .nav p {
     margin: 0;
@@ -140,40 +88,85 @@ padding-bottom:37px;
     -ms-transition: all 300ms ease 0s;
     transition: all 300ms ease 0s;
 }
-p {
-    margin-top: ;
-    margin-bottom:;
-}
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 p {
     display: block;
-    margin-block-start: 1em;
+    margin-block-start: 0.5em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
 .sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]), .off-canvas-sidebar[data-color="blue"] .nav li.active>a:not([data-toggle="collapse"]) {
     color: #052c47d2;
-    /* color:blue; */
+    color:blue; 
 }
 .wrapper .sidebar li{
     font-size: 15px;
 }
 .margin{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 #green{
     color:rgb(94, 253, 192);
  
 }
-.sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
+.sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after
+ {
     background: var(--secondary-color); 
 }
 .btn{
     margin: 0;
     padding: 10;
 }
+.card{
+    width: 200px;
+    height: 150px;
+    border-radius: px;
+    /* background: url("rose-gf7a48af0f_1920.jpg"); */
+    background: linear-gradient(90deg,rgb(201, 216, 238),rgb(91, 139, 211),rgb(4, 64, 153));
+    border-radius: 10px;
+}
+hr{
+    margin-top:40px;
+    border:1px solid rgb(6, 36, 82);
+   
+    transition: all 0.5s;
+}
+ .card i{
+     top: 18px;
+     left:70px;
+     position: absolute;
+    font-size: 25px;
+    color:rgb(10, 81, 148);
+    background-color: rgb(233, 236, 240);
+    border-radius: 50%;
+    /* padding: 7px; */
+    box-shadow:2px 2px 2px 2px rgb(100, 100, 138);
+    z-index:1;
+    border:1px solid blue;
+}
+.card-body{
+    position: absolute;
+    background: var(--third-color);
+    top:44px;
+    height: 107px;
+    width: 200px;
+ border:3px solid rgb(105, 105, 179);
+ color:var(--fourth-color);
+}
+#green{
+    color:rgb(34, 230, 34);
+}
+.card p{
+    font-size:23px;
+    color:;
+}
+.card h6{
+    font-size: 17px;
+}
+/* .card:hover{
+    transform:rotate(-360deg);
+    transition: all 2s; 
+} 

@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>
-
-  </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
     name='viewport' />
   <!--     Fonts and icons     -->
@@ -21,11 +17,8 @@
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
- 
-  <link rel="stylesheet" href="css\style.css">
-  
+  <link rel="stylesheet" href="css\style.css"> 
 </head>
-
 <body class="">
   <div class="wrapper ">
     <div class="sidebar" data-color="blue">
@@ -47,7 +40,7 @@
           </li>
           <li>
             <a href="Holding.html">
-              <i class="fas fa-hand-holding-usd"></i>
+              <i class="bi bi-briefcase"></i>
               <p>Holding</p>
             </a>
           </li>
@@ -68,9 +61,9 @@
              <i class="bi bi-cart"></i> Trading  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Trade</a>
-              <a class="dropdown-item" href="#">Order</a>
-              <a class="dropdown-item" href="#">Position</a>
+              <a class="dropdown-item" href="Scheduler.html">Trade</a>
+              <a class="dropdown-item" href="order.html">Order</a>
+              <a class="dropdown-item" href="Position.html">Position</a>
             </div>
           </li>
           
@@ -79,8 +72,8 @@
               <i class="bi bi-person"></i> Trading Accounts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
-              <a class="dropdown-item" href="#">Account List</a>
-              <a class="dropdown-item" href="#">Create New</a>
+              <a class="dropdown-item" href="TradingAcc.html">Account List</a>
+              <a class="dropdown-item" href="create.html">Create New</a>
               
             </div>
           </li>
@@ -90,8 +83,8 @@
            
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink2">
-              <a class="dropdown-item" href="#">Create</a>
-              <a class="dropdown-item" href="#">Schedular</a>
+              <a class="dropdown-item" href="Scheduler.html">Create</a>
+              <a class="dropdown-item" href="modify.html">Schedular</a>
              
             </div>
           </li>
@@ -101,8 +94,8 @@
              
             </a>
             <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdownMenuLink3">
-              <a class="dropdown-item" href="#">General</a>
-              <a class="dropdown-item" href="#">Group Setting</a>
+              <a class="dropdown-item" href="Trading.html">General</a>
+              <a class="dropdown-item" href="Setting.html">Group Setting</a>
             
             </div>
           </li>
@@ -208,7 +201,7 @@
               </div>
               <div class="col-12 col-sm-6 col-lg-3 ">
                 <section>
-                  <a href="#" class="btn btn-primary btn-sm mb-2">+ New Account</a>
+                  <a href="stockbrocker.html" class="btn btn-primary btn-sm mb-2">+ New Account</a>
                 </section>
               </div>
               <div class="col-12 col-sm-6 col-lg-3 ">
@@ -219,110 +212,124 @@
         </div>
         <div class="container ">
           <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="fas fa-rupee-sign position-absolute pt-1 pb-0 pl-2 pr-2 mb-0"></i>
-                  <h6 class="card-subtitle text-right text-top">Total investment</h6>
-                  <p class="card-text text-right text-top">713,224.09</p>
-                </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">  
+                <i class="fas fa-rupee-sign py-1 px-2"></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle text-right text-top mt-2">Total investment</h6>
+              <p class="card-text text-right text-top">713,224.09</p>
+            </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-graph-up-arrow position-absolute top-50 start-0 translate-middle"></i>
-                  <h6 class="card-subtitle mb-2 text-right text-top">Current Value</h6>
-                  <p class="card-text text-right text-top">796,310.95</p>
-                </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">  
+                <i class="bi bi-graph-up-arrow px-2"></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-right text-top mt-2">Current Value</h6>
+              <p class="card-text text-right text-top">796,310.95</p>
+            </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-card-list position-absolute top-50 start-0 translate-middle"></i>
-                  <h6 class="card-subtitle mb-2 text-right text-top">Total P&L</h6>
-                  <p class="card-text text-right text-top" id="green">83,086.86</p>
-                </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">  
+                <i class="bi bi-card-list px-2"></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-right text-top  mt-2">Total P&L</h6>
+                          <p class="card-text text-right text-top" id="green">83,086.86</p>
+            </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="container ">
+            
+            
+              </div>
+           <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">  
+                <i class="bi bi-arrow-down-up px-2"></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2  text-right text-top  mt-2">Day P&L</h6>
+                          <p class="card-text text-danger text-right text-top">-3,568.34</p>
+            </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">  
+                <i class="bi bi-person-plus px-2"></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-right text-top  mt-2">Active client</h6>
+              <p class="card-text  text-right text-top">3</p>
+            </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">  
+                <i class="bi bi-cash px-2"></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-right text-top mt-2">Available Funds</h6>
+              <p class="card-text text-danger text-muted text-right text-top">-23.60</p>
+            </div>
+              </div>
+            </div>
+            
+        
+           </div>  
           <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-arrow-down-up position-absolute top-50 start-0 translate-middle"></i>
-                  <h6 class="card-subtitle mb-2  text-right text-top">Day P&L</h6>
-                  <p class="card-text text-danger text-right text-top">-3,568.34</p>
-                </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">  
+                <i class="bi bi-folder2-open px-2"></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-right text-top mt-2">Open Order</h6>
+              <p class="card-text  text-right text-top">0</p>
+            </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4 ">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-person-plus  position-absolute top-50 start-0 translate-middle"></i>
-                  <h6 class="card-subtitle mb-2 text-right text-top">Active client</h6>
-                  <p class="card-text  text-right text-top">3</p>
-                </div>
+            
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">  
+                <i class="bi bi-x-octagon px-2 py-0 "></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-right text-top mt-2 ">cancel Order</h6>
+                          <p class="card-text text-right text-top">0</p>
+            </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-cash position-absolute "></i>
-                  <h6 class="card-subtitle mb-2 text-right text-top">Available Funds</h6>
-                  <p class="card-text text-danger text-muted text-right text-top">-23.60</p>
-                </div>
+            
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">  
+                <i class=" px-1 py-0">24</i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2  text-right text-top mt-2">Executed Order</h6>
+              <p class="card-text text-right text-top">0</p>
+            </div>
               </div>
             </div>
-          </div>
-      </div>
-        <div class="container ">
-          <div class="row justify-content-around">
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-folder2-open  position-absolute top-50 start-0 translate-middle"></i>
-                  <h6 class="card-subtitle mb-2 text-right text-top">Open Order</h6>
-                 <p class="card-text  text-right text-top">0</p>
-                </div>
+            
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">  
+                <i class="bi bi-x-circle px-2 "></i>
+                  
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2  text-right text-top mt-2">Rejected Order</h6>
+              <p class="card-text text-right text-top">40</p>
+            </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-x-octagon position-absolute top-50 start-0 translate-middle"></i>
-                  <h6 class="card-subtitle mb-2 text-right text-top ">cancel Order</h6>
-                  <p class="card-text text-right text-top">0</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="position-absolute top-50 start-0 translate-middle">24</i>
-                  <h6 class="card-subtitle mb-2  text-right text-top">Executed Order</h6>
-                  <p class="card-text text-right text-top">0</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <div class="card shadow">
-                <div class="card-body">
-                  <i class="bi bi-x-circle position-absolute top-50 start-0 translate-middle"></i>
-                  <h6 class="card-subtitle mb-2  text-right text-top">Rejected Order</h6>
-                  <p class="card-text text-right text-top">40</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            
+          </div>      
       </div>
     </div>
-
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <!--   Core JS Files   -->
@@ -332,7 +339,7 @@
     <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
     <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script>
     
-     <script src="index.js"></script>
+     <script src="Services.js"></script>
   </body>
 
 </html>

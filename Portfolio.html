@@ -47,7 +47,7 @@
           </li>
           <li>
             <a href="Holding.html">
-              <i class="fas fa-hand-holding-usd"></i>
+              <i class="bi bi-briefcase"></i>
               <p>Holding</p>
             </a>
           </li>
@@ -68,37 +68,42 @@
              <i class="bi bi-cart"></i> Trading  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Trade</a>
-              <a class="dropdown-item" href="#">Order</a>
-              <a class="dropdown-item" href="#">Position</a>
+              <a class="dropdown-item" href="Scheduler.html">Trade</a>
+              <a class="dropdown-item" href="order.html">Order</a>
+              <a class="dropdown-item" href="Position.html">Position</a>
             </div>
           </li>
-        
+          
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
               <i class="bi bi-person"></i> Trading Accounts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
-              <a class="dropdown-item" href="#">Account List</a>
-              <a class="dropdown-item" href="#">Create New</a>          
+              <a class="dropdown-item" href="TradingAcc.html">Account List</a>
+              <a class="dropdown-item" href="create.html">Create New</a>
+              
             </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
-              <i class="bi bi-clock"></i>   Scheduler  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+              <i class="bi bi-clock"></i>   Scheduler  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink2">
-              <a class="dropdown-item" href="#">Create</a>
-              <a class="dropdown-item" href="#">Schedular</a>             
+              <a class="dropdown-item" href="Scheduler.html">Create</a>
+              <a class="dropdown-item" href="modify.html">Schedular</a>
+             
             </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle " id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
-              <i class="bi bi-gear"></i> Setting  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             
+              <i class="bi bi-gear"></i> Setting  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
             </a>
             <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdownMenuLink3">
-              <a class="dropdown-item" href="#">General</a>
-              <a class="dropdown-item" href="#">Group Setting</a>
+              <a class="dropdown-item" href="Trading.html">General</a>
+              <a class="dropdown-item" href="Setting.html">Group Setting</a>
+            
             </div>
           </li>
         </ul>
@@ -184,7 +189,7 @@
             <div class="col-12 ">
               <div class="row">
               <div class="col-12 col-sm-4 mb-2 ">
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select class="form-select form-select-sm column-color" aria-label=".form-select-sm example">
                   <option selected>Column Name</option>
                   <option value="1">...</option>
                   <option value="2">...</option>
@@ -192,7 +197,7 @@
                 </select>
                </div>
                 <div class="col-12 col-sm-4 col-lg-3 mb-2">
-                  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <select class="form-select form-select-sm column-color" aria-label=".form-select-sm example">
                     <option selected >Sort</option>
                     <option value="1">...</option>
                     <option value="2">...</option>
@@ -212,7 +217,7 @@
     <div class="container-fluid shadow">
         <div class="row">
             <div class="col-12 p-0" >
-                <div class="table-responsive  bg-light table-dark ">                   
+                <div class="table-responsive" style="padding-bottom: 0;">                   
                 <table class="table table-hover table-sm font-light ">
                     <thead class="font mar" >
                         <tr>
@@ -244,7 +249,6 @@
                               </h6>
                             </tr>
                             </h6>
-                          
                               <tr id="flush-collapseOne" class="accordion-collapse collapse light" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                             <td>BSE</td>
@@ -264,7 +268,7 @@
                         <tr id="flush-collapseOne" class="accordion-collapse collapse light" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                           <td>BSE</td>
-                          <td><a href="#">FLUIDOM</a>-<span>&#8377;</span><BR>(Qty 597)</td>
+                          <td><a href="#">FLUIDOM</a>-<span>&#8377; </span><BR>(Qty 597)</td>
                           <td><span>&#8377;</span>138.09 <br>(BAP) </td>
                           <td><span>&#8377;</span>413,094.70</td>
                           <td><span>&#8377;</span>494,419.30<br><p class="text-success">19.69%<br>81,324.60</p></td>
@@ -343,6 +347,6 @@
   <script src="../assets/js/core/bootstrap.min.js"></script>
   <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
   <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script>
-  <script src="index.js"></script>
+  <script src="Services.js"></script>
 </body>
 </html>
