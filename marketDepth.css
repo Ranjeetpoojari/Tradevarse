@@ -1,0 +1,31 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;   
+}
+body{
+    background:linear-gradient(45deg,rgba(32, 110, 149,1),rgba(128, 200, 240,0.9)) ;
+}
+:root{
+    --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
+    --secondary-color:rgba(29, 72, 86,1);
+    --third-color:white;
+    --fourth-color:black;
+    
+    --column-color:#fff;
+    cursor: pointer;
+    --table-according:rgb(217, 219, 212);
+}
+.dark-them{
+    --primary-color:linear-gradient(45deg,rgba(22, 23, 24, 0.9),rgba(6, 10, 65, 0.7)) ;
+    --secondary-color:rgb(33, 41, 41);
+    --third-color:linear-gradient(180deg,rgb(26, 35, 39),rgb(76, 73, 99));
+    --fourth-color:rgb(243, 240, 240);
+    cursor: pointer;
+    --table-according:#333;
+    --column-color:#333;
+
+}
+#main-panel{
+    background:var(--primary-color);
+    height:100%;
+}
