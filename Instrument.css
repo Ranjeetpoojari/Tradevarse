@@ -10,7 +10,6 @@ body{
     --secondary-color:rgba(29, 72, 86,1);
     --third-color:white;
     --fourth-color:black;
-    
     --column-color:#fff;
     cursor: pointer;
     --table-according:rgb(217, 219, 212);
@@ -28,4 +27,7 @@ body{
 #main-panel{
     background:var(--primary-color);
     height:100%;
+}
+#con{
+
 }
