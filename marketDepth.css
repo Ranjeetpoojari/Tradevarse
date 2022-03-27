@@ -108,7 +108,7 @@ color: var(--fourth-color);
     margin-left: 20px;
 }
 .table2>tbody>tr>td{
- padding:3px 30px 3px 30px;
+ padding:3px 20px 3px 20px;
  text-align: start;
 }
 hr{
