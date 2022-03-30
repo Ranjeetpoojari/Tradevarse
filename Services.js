@@ -55,4 +55,17 @@ $(document).ready(function () {
     }
   });
 });
-
+$(document).ready(function() {
+  $("#checkID").change(function() {
+    $('.check').prop('checked', $(this).prop("checked"));
+    });
+  $("#checkID").click(function() {
+    if($('.check:checked').length == $('.check').length){
+      $('#checkID').attr('checked', true);
+    }
+    else
+    {
+      $("#checkID").attr("checked", false);
+    }
+    });
+});

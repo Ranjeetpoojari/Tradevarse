@@ -30,7 +30,7 @@
        font-size: 15px;
    }
    body{
-     background:linear-gradient(45deg,rgba(18, 113, 160, 1),rgba(59, 120, 153, 0.9)) ;
+    background:var(--primary-color);
     
    }
    #main-panel{
@@ -77,8 +77,8 @@
        transition: .4s;
        transform: rotate(180deg);
      }
-     
-     .slider:before {
+      
+     .slider:before{
        position: absolute;
        content: "";
        height: 18px;
@@ -296,4 +296,7 @@
 }
 .modal-header , .modal-body ,.modal-footer{
   background:var(--third-color)!important;
+}
+#check4:checked ~ #toggleshadule{
+  display: inline;
 }

@@ -130,4 +130,5 @@ td{
 }
 .sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
     background: var(--secondary-color); 
+    
 }

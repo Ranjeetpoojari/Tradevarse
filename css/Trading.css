@@ -57,14 +57,14 @@ table{
     color:var(--fourth-color);
 }
 .table td:nth-child(3) {
-    width: 400px;
+    width: 500px;
 }
 .form-select{
     width:200px;
     padding: 7px;
     border-radius: 4px;
     background:linear-gradient(45deg,rgba(135, 201, 204, 0.7),rgb(19, 85, 184,0.3));
-    color: var(--fourth-color);
+    color:rgb(17, 50, 196);
     font-weight: 600;
     font-size: 15px;
 }
