@@ -115,12 +115,9 @@ p {
 .sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after
  {
     background: var(--secondary-color); 
-    fon
+    
  }
-.btn{
-    margin: 0;
-    padding: 10;
-}
+
 .card{
     width: 200px;
     height: 150px;
@@ -162,10 +159,18 @@ hr{
 }
 .card p{
     font-size:23px;
-    color:;
 }
 .card h6{
     font-size: 17px;
+}
+#row,#row1,#row2{
+    justify-content: center;
+}
+ .col-10 .col-sm-6 .col-md-4{
+justify-content:space-between;
+}
+.margin .col-9 .row .co-12:nth-child(1){
+    margin:0px ;
 }
 /* .card:hover{
     transform:rotate(-360deg);

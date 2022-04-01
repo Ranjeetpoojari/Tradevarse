@@ -1,17 +1,17 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      
+   box-sizing: border-box;
    }
    #main-panel{
        background:var(--primary-color) ;
-       height:100vh;
+       height:100%;
+       overflow: auto;
    }
    :root{
     --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;
     --secondary-color:rgba(29, 72, 86,1);
     --third-color:white;
     --fourth-color:black;
-    
     --column-color:#fff;
     cursor: pointer;
     --table-according:rgb(217, 219, 212);
@@ -68,10 +68,8 @@
        color:rgb(0, 68, 255);
        font-weight: 700;
    }
- 
-.table{
-    max-width: 900px;
-}
+   
+
 .accordion-body{
     display: none;
 }
@@ -87,10 +85,11 @@ td{
     white-space: nowrap;
 }
 .table-responsive {
-    min-width: 100%;
+ width: 95%;
+ background:var(--third-color);
 }
 .table{
-    min-width: 100%;
+   width: 100%;
 }
 .container {
     width: 100%;
@@ -109,9 +108,7 @@ td{
 .sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
     background: var(--secondary-color); 
 }
-.table-responsive{
-    background:var(--third-color);
-}
+
 td{
     color: var(--fourth-color)!important;
 }

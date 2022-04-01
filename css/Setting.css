@@ -28,11 +28,11 @@
 #main-panel{
     background:var(--primary-color);
     height:100%;
+    overflow: auto;
 }
-
 .font{
     font-size:10px;
-    background-color: rgb(150, 193, 223);
+    background-color:rgb(150, 193, 223);
 }
 
 

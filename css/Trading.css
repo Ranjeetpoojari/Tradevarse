@@ -22,7 +22,8 @@
 }
 #main-panel{
     background:var(--primary-color);
-    height:100vh;
+    height:100%;
+    overflow: auto;
 }
 
 #con{
@@ -69,17 +70,22 @@ table{
     font-size: 15px;
 }
 .card{
-    width:60vw;
+   
+    width:70vw;
     background:var(--third-color) ;
-    color:var(--fourth-color)
-    
+    color:var(--fourth-color);
+    margin: 0px 1px 10px 0px;
+}
+@media screen and (max-width: 900px){
+    .card{
+   
+        width:90vw;
+        background:var(--third-color) ;
+        color:var(--fourth-color);
+        margin: 0px 1px 1px 0px;
+    }
 }
 
-@media (max-width: 700px){
-   .card{
-    width:95vw;
-   }
-}
 .sidebar-wrapper{
     overflow-y:hidden;
 }
@@ -99,4 +105,14 @@ table{
 }
 .sidebar[data-color="blue"]:after, .off-canvas-sidebar[data-color="blue"]:after {
     background: var(--secondary-color); 
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left:0;
+}
+.table{
+    justify-content: center;
 }

@@ -21,7 +21,8 @@
 }
 #main-panel{
     background:var(--primary-color) ;
-    height: 100vh;
+    height:100%;
+    overflow: auto;
 }
 #con{
     margin-top: 100px;
@@ -31,6 +32,7 @@
 .card{
     width: 100vw;
 }
+
 .table{
     overflow: none;
     margin-left:10px ;

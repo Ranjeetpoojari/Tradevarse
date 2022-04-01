@@ -37,7 +37,7 @@ body{
 #main-panel{
     background:var(--primary-color);
     height:100%;
- 
+    overflow: auto;
 }
 table{
     height: 350px;

@@ -4,8 +4,9 @@
  
 }
 body{
-    background:linear-gradient(45deg,rgba(32, 110, 149,1),rgba(128, 200, 240,0.9)) ;
-    height: 100%;
+    background:var(--primary-color);
+    height:100%;
+    overflow: auto;
 }
 :root{
     --primary-color:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ;

@@ -37,6 +37,7 @@
      /* background:linear-gradient(45deg,rgba(32, 110, 149,0.9),rgba(128, 200, 240,0.7)) ; */
      background:var(--primary-color);
      height:100%;
+     overflow: auto;
    }
    .card{
      width:95%;
